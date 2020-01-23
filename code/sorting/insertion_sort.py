@@ -10,9 +10,3 @@ def insertion_sort(numbers):
         numbers[j + 1] = key
 
     return numbers
-
-
-def _swap_array_values(array, i, j):
-    temp = array[i]
-    array[i] = array[j]
-    array[j] = temp

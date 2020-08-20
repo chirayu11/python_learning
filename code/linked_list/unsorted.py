@@ -2,6 +2,7 @@
 class UnsortedLinkedList(object):
     def __init__(self):
         self.head = None
+        self._count = 0
 
     def add(self, item):
         node = Node(item, None)
@@ -9,6 +10,8 @@ class UnsortedLinkedList(object):
             self.head = node
         else:
             self._add_node_to_the_end(node)
+
+        self._count += 1
 
     def _add_node_to_the_end(self, node):
         parent_node = self.head
@@ -30,6 +33,10 @@ class UnsortedLinkedList(object):
             end_pointer = end_pointer.next_node
 
         return start_pointer.item
+
+    @property
+    def length(self):
+        return self._count
 
 
 class Node(object):

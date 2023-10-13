@@ -1,4 +1,4 @@
 
 
-Current Job: Senior Developer
-Employer:    Shopify
+Current Job: Engineering Lead
+Employer:    Monday.com

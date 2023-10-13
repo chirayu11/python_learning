@@ -1,4 +1,4 @@
 
 
 Current Job: Senior Developer
-Employer:    Shopify.com
+Employer:    Shopify

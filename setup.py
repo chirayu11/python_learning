@@ -9,6 +9,6 @@ setup(name='python_learning',
       ],
       setup_requires=['pytest-runner'],
       tests_require=[
-          'pytest==5.2.2',
+          'pytest==9.0.3',
       ],
       dependency_links=[])
